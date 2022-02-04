@@ -1,17 +1,21 @@
 # Three.js - Template - Simple
-### From ThreeJS Journey by Bruno Simon
+### Based on the ThreeJS Journey Template by Bruno Simon
+[https://github.com/brunosimon/webpack-three-js-template](https://github.com/brunosimon/webpack-three-js-template)
+
+![SocialImage](./SocialImage.jpg)
 
 ## Setup
-Download [Node.js](https://nodejs.org/en/download/).
-Run this followed commands:
+- Download [Node.js](https://nodejs.org/en/download/) and run the following commands:
 
+- Install dependencies (only the first time)
 ``` bash
-# Install dependencies (only the first time)
 npm install
-
-# Run the local server at localhost:8080
+```
+- Run the local server at localhost:8080
+``` bash
 npm run dev
-
-# Build for production in the dist/ directory
+```
+- Build for production in the ./dist folder
+``` bash
 npm run build
 ```
